@@ -1,0 +1,29 @@
+{
+  "name": "wp-gulp",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "Toms15 <info@tommasocostantini.it>",
+    "Malander <marimichele26@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js"
+      ]
+    }
+  }
+}
